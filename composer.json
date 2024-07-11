@@ -1,0 +1,19 @@
+{
+    "name": "noble/frameworks_php",
+    "description": "basic project",
+    "authors": [
+        {
+            "name": "HectorARG",
+            "email": "hectorr9577@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}
